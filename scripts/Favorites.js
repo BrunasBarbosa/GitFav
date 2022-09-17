@@ -99,9 +99,11 @@ export class FavoritesView extends Favorites {
     }
 
     if (atLeastSixEntries) {
+      this.tableWrapper.style.overflowY = 'hidden';
       this.tableWrapper.classList.remove('container');
       this.tableWrapper.classList.add('container-wrap');
     } else {
+      this.tableWrapper.style.overflowY = 'scroll';
       this.tableWrapper.classList.remove('container-wrap');
       this.tableWrapper.classList.add('container');
     }
