@@ -94,6 +94,11 @@ button {
   justify-content: center;
 }
 
+.search button:hover {
+  background: white;
+  color: var(--button-search-color);
+}
+
 .table-wrapper {
   margin-top: 8.7rem;
   overflow-y: scroll;
