@@ -102,6 +102,7 @@ button {
 .table-wrapper {
   margin-top: 8.7rem;
   overflow-y: hidden;
+  overflow-x: hidden;
   border: 1px solid var(--table-boder-color);
   border-radius: 1.3rem;
 }
