@@ -53,7 +53,6 @@ All information is stored locally, within the browser's localStorage.
 ##
 
 🔗 [Click here to access](https://brunasbarbosa.github.io/GitFav/)
-
 ## 
 
 ## ⚙️ Technologies
