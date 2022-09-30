@@ -1,7 +1,7 @@
 export class GithubUser {
   static search(username) {
     const endpoint = `https://api.github.com/users/${username}`
-
+    
     return fetch(endpoint)
       .then(data => data.json())
       .then(({ login, name, public_repos, followers }) => ({
@@ -27,15 +27,16 @@ export class Favorites {
   }
 
   async add(username) {
+    
     try {
-      const userExist = this.entries.find(entry => entry.login === username)
+      const userExist = this.entries.find(entry => entry.login.toLowerCase() === username.toLowerCase())
 
       if (userExist) {
         throw new Error('Usuário já cadastrado.');
       }
 
       const user = await GithubUser.search(username);
-
+      
       if (user.login === undefined) {
         throw new Error('Usuário não encontrado.');
       }
@@ -79,7 +80,7 @@ export class FavoritesView extends Favorites {
 
     addButton.onclick = () => {
       const { value } = this.root.querySelector('.search input')
-
+      
       this.add(value);
     }
   }
