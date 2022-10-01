@@ -65,3 +65,12 @@ All information is stored locally, within the browser's localStorage.
 
 ## 💌 Contact me
 
+<a href="https://www.linkedin.com/in/brunas-barbosa/" target="_blank">
+ <img style="width: 64px; height: 64px;" src="https://user-images.githubusercontent.com/112329870/193428375-614df6f5-1859-49aa-8c6f-77e404eea7f8.png"/>
+</a>
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="mailto:brunas_barbosa@hotmail.com">
+  <img style="width: 64px; height: 64px;" src="https://user-images.githubusercontent.com/112329870/193428494-d3220a15-b169-4d2b-bddb-882550341713.png">
+</a>
